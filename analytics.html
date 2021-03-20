@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- || meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- || title tag & tab icon -->
+    <title>analytics</title>
+
+    <!-- || Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- || AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- || Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+   
+</head> 
+
+<body onscroll="checkWidthDoAnime()">
+    <!-- || Navbar Section Start -->
+     <!-- || Navbar Section Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" data-aos="fade-right">
+                <span>OLD AGE HOME</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-4" data-aos="fade-left">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="donate.html">Donate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="assurance.html">Assurance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="analytics.html">Analytics</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+    <!-- || Navbar Section End -->
+
+   <section id="analytics" >
+        <div class="">
+            <h2 class="section_heading pb-3" data-aos="fade-up">
+                <span> Analytics</span>
+                <span></span>
+            </h2>
+
+            <div class="analytics_box mt-4 pt-3 pb-4" data-aos="fade-up">
+                <div class="analytics_item" data-aos="fade-right" data-delay="150">
+                    <img src="./img/O4.png" alt="Donators" />
+                    <h3 class="analytics_count"><span data-count="155">0</span>+</h3>
+                    <h5 class="analytics_term">Donators</h5>
+                </div>
+                <div class="analytics_item" data-aos="fade-up">
+                    <img src="./img/O5.png" alt="Projects" />
+                    <h3 class="analytics_count"><span data-count="25">0</span>+</h3>
+                    <h5 class="analytics_term">Projects</h5>
+                </div>
+                <div class="analytics_item" data-aos="fade-left" data-delay="250">
+                    <img src="./img/O6.png" alt="Team" />
+                    <h3 class="analytics_count"><span data-count="35">0</span>+</h3>
+                    <h5 class="analytics_term">Teams</h5>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- || Inbuilt & Custom JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"
+        defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" defer></script>
+        
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Sweetalert -->
+  
+  
+
+    <!-- Index -->
+    <script src="./js/index.js"></script>
+
+    <!-- Analytics Count -->
+    <script src="./js/analyticsCount.js" defer></script>
+
+  
+    
+    <script>
+        AOS.init({
+            delay: 100,
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
+</body>
+ <!-- || Footer Section Start -->
+    <footer class="text-center mt-5 py-5 bg-secondary">
+      |💵💸  Copyright &copy sptiwari 20-21 Old Age Home💵💸! |
+        
+      </footer>
+    <!-- || Footer Section End -->
+
+</html>

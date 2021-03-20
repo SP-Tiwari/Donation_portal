@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- || meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- || title tag & tab icon -->
+    <title>donate</title>
+
+    <!-- || Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- || AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- || Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/banner.css" />
+  
+  
+</head> 
+
+<body onscroll="checkWidthDoAnime()">
+   
+     <!-- || Navbar Section Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" data-aos="fade-right">
+                <strong>OLD AGE HOME</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-4" data-aos="fade-left">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="donate.html"><b>Donate</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="assurance.html"><b>Assurance</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="analytics.html"><b>Analytics</b></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html"><b>FAQ</b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+
+    <main id="donate">
+        <div class="banner_box">
+            <img src="./img/banner/O2.png" alt="Banner Image" />
+            <div class="overlay">
+                <div data-aos="fade-up">
+                    <h1>You have the Power to<br /> Bring Happiness</h1>
+                    <h3>The aim is to serve every destitute, orphan, needy and abandoned elderly by providing them free shelter, food, clothes, healthcare, love and respect. .</h3>
+                    <p class="banner_text">It does not matter how much we donate; it matters whether the donation is
+                        meaningful. 
+                        
+                        
+                    </p>
+                    
+                   <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_GolppLNkAoD1oy" async> </script> </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- || Inbuilt & Custom JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"
+        defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" defer></script>
+        
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Sweetalert -->
+  
+  
+
+    <!-- Index -->
+    <script src="./js/index.js"></script>
+
+    <!-- Analytics Count -->
+    <script src="./js/analyticsCount.js" defer></script>
+
+    <!-- Razorpay Payment -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js" defer></script>
+    <script src="./js/razorpay.js" defer></script>
+
+    <script>
+        AOS.init({
+            delay: 110,
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
+</body>
+ <!-- || Footer Section Start -->
+    <footer class="text-center mt-5 py-5 bg-secondary">
+      |💵💸  Copyright &copy sptiwari 20-21 Old Age Home💵💸! |
+        
+      </footer>
+    <!-- || Footer Section End -->
+
+</html>
